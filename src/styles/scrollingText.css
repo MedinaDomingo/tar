@@ -1,0 +1,15 @@
+  .scrolling-text {
+     width: 100%;
+    text-align: center;
+    padding: 20px 0;
+    font-size: 80px;
+    white-space: nowrap;
+    overflow: hidden;
+  }
+  
+  .scrolling-text p {
+    display: inline-block;
+    white-space: nowrap;
+    transition: transform 0.9s ease-out; 
+  }
+  
